@@ -22,7 +22,7 @@ print(password)`;
     try {
 
       const response = await axios.post(
-        "https://ai-powered-code-review-assistant-for-ex8z.onrender.com",
+        "https://ai-powered-code-review-assistant-for-ex8z.onrender.com/review",
         { code }
       );
 
